@@ -8,7 +8,6 @@ body {
 }
 
 header {
-  background-color: #2483d5;
   position: fixed;
   padding: 10px;
   top: 0px;
@@ -16,6 +15,9 @@ header {
   width: 100%;
   border-bottom: 1px solid black;
   z-index: 1;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #ededed 25%, #f3f3f3 83%, #f3f3f3 83%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(25%,#ededed), color-stop(83%,#f3f3f3), color-stop(83%,#f3f3f3), color-stop(100%,#ffffff));
+  background: linear-gradient(to bottom,  #ffffff 0%,#ededed 25%,#f3f3f3 83%,#f3f3f3 83%,#ffffff 100%);
 }
 
 .icon{
@@ -23,6 +25,29 @@ header {
   width: 10%;
 }
 
+#nav-container {
+  position: relative;
+  top: 10px;
+  width: 100%;
+}
+
+.message, .settings, .tweet {
+  float: right;
+  display: inline-block;
+}
+
+/*.group-4 {
+  width: 50%;
+  float: left;
+}
+.group-3 {
+  width: 40%;
+  float: right;
+}
+.group-2 {
+
+}
+*/
 main {
   background: #eebb2c;
   height: 100%;
@@ -32,6 +57,7 @@ main {
 }
 
 #container {
+  position: relative;
   width: 80%;
   margin: 0px auto;
   padding-top: 50px;
@@ -51,4 +77,10 @@ section {
   top: 10px;
   float: left;
   width: 80%;
+  height: 500px;
+}
+
+p {
+  position: relative;
+  padding-left: 100px;
 }
