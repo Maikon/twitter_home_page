@@ -1,0 +1,54 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #2483d5;
+  position: fixed;
+  padding: 10px;
+  top: 0px;
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  z-index: 1;
+}
+
+.icon{
+  float: left;
+  width: 10%;
+}
+
+main {
+  background: #eebb2c;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+#container {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+
+aside {
+  background: #e13328;
+  position: relative;
+  top: 10px;
+  float: left;
+  width: 20%;
+}
+
+section {
+  background: #22c358;
+  position: relative;
+  top: 10px;
+  float: left;
+  width: 80%;
+}
