@@ -6,6 +6,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Helvetica';
+  background: url("../img/escheresque_ste.png");
 }
 
 header {
@@ -15,7 +16,6 @@ header {
   right: 0;
   left: 0;
   height: 30px;
-  /*width: 100%;*/
   border-bottom: 1px solid black;
   z-index: 1;
   background: -moz-linear-gradient(top,  #ffffff 0%, #ededed 25%, #f3f3f3 83%, #f3f3f3 83%, #ffffff 100%);
@@ -84,7 +84,6 @@ a p {
 }
 
 input.search {
-  /* display: inline-block; */
   -webkit-appearance: none;
   position: relative;
   right: 100px;
@@ -125,7 +124,6 @@ textarea, input {
 /*===============*/
 
 main {
-  background: url("../img/escheresque_ste.png");
   height: 100%;
   width: 100%;
   position: relative;
@@ -157,7 +155,7 @@ section {
   top: 10px;
   float: left;
   width: 75%;
-  height: 500px;
+  height: 1000px;
   border: 2px solid #829595;
   border-radius: 5px;
   text-align: center;
@@ -166,4 +164,5 @@ section {
 section p {
   position: relative;
   margin-top: 25%;
+  color: red;
 }
